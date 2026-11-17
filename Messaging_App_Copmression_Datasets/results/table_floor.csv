@@ -1,0 +1,5 @@
+Classifier,Seed-to-seed flip,Flip q95,Flip app 960 px / q50,Flip q10
+"ResNet-50, standard",0.266,0.045,0.141,0.493
+"ResNet-50, compression-aware",0.257,0.039,0.115,0.381
+"EfficientNet-B0, standard",0.237,0.031,0.09,0.392
+"EfficientNet-B0, compression-aware",0.22,0.026,0.085,0.356

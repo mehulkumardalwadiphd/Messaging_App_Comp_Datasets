@@ -1,0 +1,9 @@
+Classifier,Balanced accuracy,Balanced accuracy_sd,Macro F1,Macro F1_sd,Macro AUC,Macro AUC_sd,Malignant sensitivity,Malignant sensitivity_sd,ECE,ECE_sd
+"ResNet-50, standard",0.618,0.02,0.586,0.024,0.888,0.011,0.825,0.048,0.114,0.027
+"ResNet-50, compression-aware",0.628,0.029,0.614,0.021,0.89,0.008,0.819,0.033,0.117,0.032
+"EfficientNet-B0, standard",0.622,0.032,0.602,0.032,0.892,0.009,0.818,0.034,0.089,0.024
+"EfficientNet-B0, compression-aware",0.634,0.034,0.608,0.027,0.891,0.008,0.823,0.033,0.083,0.025
+"DINOv2 ViT-S/14, standard",0.596,0.032,0.58,0.032,0.887,0.015,0.78,0.023,0.076,0.039
+"DINOv2 ViT-S/14, compression-aware",0.568,0.045,0.559,0.039,0.872,0.019,0.771,0.04,0.173,0.121
+"CLIP ViT-B/16, standard",0.626,0.02,0.614,0.017,0.902,0.017,0.811,0.038,0.103,0.099
+"CLIP ViT-B/16, compression-aware",0.61,0.019,0.598,0.02,0.901,0.008,0.802,0.043,0.116,0.033

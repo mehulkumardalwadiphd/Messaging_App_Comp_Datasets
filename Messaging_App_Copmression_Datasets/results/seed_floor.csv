@@ -1,0 +1,9 @@
+model,regime,seed_flip,lo,hi
+clip_vitb16,compaware,0.0000,0.0000,0.0000
+clip_vitb16,standard,0.0000,0.0000,0.0000
+dinov2_vits14,compaware,0.0000,0.0000,0.0000
+dinov2_vits14,standard,0.0000,0.0000,0.0000
+efficientnet_b0,compaware,0.2198,0.2015,0.2373
+efficientnet_b0,standard,0.2367,0.2181,0.2537
+resnet50,compaware,0.2567,0.2395,0.2759
+resnet50,standard,0.2659,0.2469,0.2845

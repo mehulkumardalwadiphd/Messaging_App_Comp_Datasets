@@ -1,0 +1,12 @@
+Setting,Value,Reason
+Input,"whole photograph resized to 224 × 224, no crop",keeps the full lesion and its border in view
+Fine-tuned backbones,"ResNet-50 (ImageNet V2 weights), EfficientNet-B0 (ImageNet V1)","standard, widely used baselines of two sizes"
+Optimiser,"AdamW, learning rate 0.0001, weight decay 0.0001",usual fine-tuning settings for pre-trained networks
+Schedule / epochs,"cosine decay, at most 30 epochs, batch 32",fits 6 GB of GPU memory
+Early stopping,"balanced accuracy on clean validation patients, patience 7, best weights restored",selection never sees test photographs
+Loss,cross-entropy with inverse-frequency class weights,melanoma is the smallest class
+Training augmentation,"flips, 90° rotations, brightness/contrast ±0.1",lesion orientation carries no diagnostic meaning
+Compression-aware variant,replace image by a pre-drawn degraded variant with probability 0.5,matched control: everything else identical
+Frozen encoders,DINOv2 ViT-S/14; CLIP ViT-B/16 (LAION-2B),two pre-training families
+Linear head,"standardised features, logistic regression, C chosen from 0.01, 0.1, 1.0, 10.0",C chosen on validation patients
+Repeats,2 seeds × 5 folds = 10 runs per model and regime,uncertainty from both data split and training

@@ -1,0 +1,23 @@
+{
+  "encoders": {
+    "dinov2_vits14": "timm vit_small_patch14_dinov2.lvd142m, img_size=224",
+    "clip_vitb16": "open_clip ViT-B-16 laion2b_s34b_b88k"
+  },
+  "head": "StandardScaler + LogisticRegression(lbfgs, class_weight=balanced, max_iter=5000)",
+  "C_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "selection": "balanced accuracy on the clean inner-validation patients",
+  "regimes": [
+    "standard",
+    "compaware"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "code_hash": "4b08acd98a"
+}

@@ -1,0 +1,21 @@
+{
+  "dataset": "PAD-UFES-20",
+  "doi": "https://doi.org/10.17632/zr7vgbcyr2.1",
+  "licence": "CC BY 4.0",
+  "source": "https://data.mendeley.com/public-api/zip/zr7vgbcyr2/download/1",
+  "zip_sha256": "e8c7e17bac1698c97e44d4096ec20ac1b91c135285c1446b7b2e7ebbc9be933c",
+  "zip_bytes": 3593344681,
+  "downloaded": "2026-11-12",
+  "n_images": 2298,
+  "n_patients": 1373,
+  "n_lesions": 1641,
+  "class_counts": {
+    "BCC": 845,
+    "ACK": 730,
+    "NEV": 244,
+    "SEK": 235,
+    "SCC": 192,
+    "MEL": 52
+  },
+  "rgba_images_composited_on_white": true
+}

@@ -1,0 +1,132 @@
+16:51:54 [run_all] stage finetune start
+16:55:08 [ft 1/40] resnet50 standard s0 f0: best_ep=15 val_bacc=0.683 epochs_run=23 (194s)  ETA 126 min
+16:57:06 [ft 2/40] resnet50 standard s0 f1: best_ep=5 val_bacc=0.683 epochs_run=13 (118s)  ETA 99 min
+16:58:57 [ft 3/40] resnet50 standard s0 f2: best_ep=4 val_bacc=0.663 epochs_run=12 (110s)  ETA 87 min
+17:00:57 [ft 4/40] resnet50 standard s0 f3: best_ep=5 val_bacc=0.665 epochs_run=13 (121s)  ETA 81 min
+17:02:57 [ft 5/40] resnet50 standard s0 f4: best_ep=5 val_bacc=0.646 epochs_run=13 (119s)  ETA 77 min
+17:04:32 [ft 6/40] resnet50 standard s1 f0: best_ep=2 val_bacc=0.695 epochs_run=10 (95s)  ETA 72 min
+17:06:47 [ft 7/40] resnet50 standard s1 f1: best_ep=7 val_bacc=0.656 epochs_run=15 (135s)  ETA 70 min
+17:08:45 [ft 8/40] resnet50 standard s1 f2: best_ep=5 val_bacc=0.609 epochs_run=13 (118s)  ETA 67 min
+17:10:36 [ft 9/40] resnet50 standard s1 f3: best_ep=4 val_bacc=0.667 epochs_run=12 (110s)  ETA 64 min
+17:12:49 [ft 10/40] resnet50 standard s1 f4: best_ep=7 val_bacc=0.626 epochs_run=15 (134s)  ETA 63 min
+17:14:59 [ft 11/40] resnet50 compaware s0 f0: best_ep=6 val_bacc=0.672 epochs_run=14 (130s)  ETA 61 min
+17:17:25 [ft 12/40] resnet50 compaware s0 f1: best_ep=8 val_bacc=0.702 epochs_run=16 (146s)  ETA 60 min
+17:19:18 [ft 13/40] resnet50 compaware s0 f2: best_ep=4 val_bacc=0.595 epochs_run=12 (113s)  ETA 57 min
+17:21:27 [ft 14/40] resnet50 compaware s0 f3: best_ep=6 val_bacc=0.628 epochs_run=14 (129s)  ETA 55 min
+17:23:43 [ft 15/40] resnet50 compaware s0 f4: best_ep=7 val_bacc=0.604 epochs_run=15 (136s)  ETA 53 min
+17:25:35 [ft 16/40] resnet50 compaware s1 f0: best_ep=4 val_bacc=0.714 epochs_run=12 (112s)  ETA 51 min
+17:27:58 [ft 17/40] resnet50 compaware s1 f1: best_ep=8 val_bacc=0.614 epochs_run=16 (143s)  ETA 49 min
+17:30:22 [ft 18/40] resnet50 compaware s1 f2: best_ep=8 val_bacc=0.646 epochs_run=16 (144s)  ETA 47 min
+17:32:55 [ft 19/40] resnet50 compaware s1 f3: best_ep=9 val_bacc=0.631 epochs_run=17 (153s)  ETA 45 min
+17:36:14 [ft 20/40] resnet50 compaware s1 f4: best_ep=15 val_bacc=0.645 epochs_run=23 (199s)  ETA 44 min
+Downloading: "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth" to C:\Users\adisi/.cache\torch\hub\checkpoints\efficientnet_b0_rwightman-7f5810bc.pth
+  0%|          | 0.00/20.5M [00:00<?, ?B/s]  1%|          | 128k/20.5M [00:00<00:36, 590kB/s]  2%|1         | 384k/20.5M [00:00<00:19, 1.06MB/s]  2%|2         | 512k/20.5M [00:00<00:19, 1.05MB/s]  3%|3         | 640k/20.5M [00:00<00:18, 1.11MB/s]  4%|4         | 896k/20.5M [00:00<00:16, 1.28MB/s]  6%|5         | 1.12M/20.5M [00:00<00:15, 1.33MB/s]  7%|6         | 1.38M/20.5M [00:01<00:16, 1.22MB/s]  7%|7         | 1.50M/20.5M [00:01<00:16, 1.19MB/s]  9%|8         | 1.75M/20.5M [00:01<00:15, 1.28MB/s] 10%|9         | 2.00M/20.5M [00:01<00:13, 1.39MB/s] 11%|#1        | 2.25M/20.5M [00:01<00:13, 1.42MB/s] 12%|#2        | 2.50M/20.5M [00:02<00:12, 1.45MB/s] 14%|#4        | 2.88M/20.5M [00:02<00:10, 1.73MB/s] 15%|#5        | 3.12M/20.5M [00:02<00:10, 1.73MB/s] 17%|#6        | 3.38M/20.5M [00:02<00:10, 1.75MB/s] 18%|#7        | 3.62M/20.5M [00:02<00:09, 1.81MB/s] 19%|#8        | 3.88M/20.5M [00:02<00:09, 1.86MB/s] 20%|##        | 4.12M/20.5M [00:02<00:08, 1.90MB/s] 21%|##1       | 4.38M/20.5M [00:03<00:09, 1.83MB/s] 23%|##2       | 4.62M/20.5M [00:03<00:08, 1.90MB/s] 24%|##3       | 4.88M/20.5M [00:03<00:08, 1.99MB/s] 25%|##5       | 5.12M/20.5M [00:03<00:08, 1.94MB/s] 26%|##6       | 5.38M/20.5M [00:03<00:07, 2.05MB/s] 28%|##7       | 5.62M/20.5M [00:03<00:07, 2.07MB/s] 29%|##8       | 5.88M/20.5M [00:03<00:07, 2.03MB/s] 30%|##9       | 6.12M/20.5M [00:03<00:07, 1.97MB/s] 32%|###1      | 6.50M/20.5M [00:04<00:06, 2.22MB/s] 33%|###3      | 6.75M/20.5M [00:04<00:06, 2.18MB/s] 34%|###4      | 7.00M/20.5M [00:04<00:07, 1.99MB/s] 35%|###5      | 7.25M/20.5M [00:04<00:08, 1.60MB/s] 37%|###6      | 7.50M/20.5M [00:05<00:14, 937kB/s]  38%|###7      | 7.75M/20.5M [00:06<00:26, 500kB/s] 39%|###8      | 7.88M/20.5M [00:06<00:31, 419kB/s] 39%|###9      | 8.00M/20.5M [00:07<00:29, 440kB/s] 40%|###9      | 8.12M/20.5M [00:07<00:30, 426kB/s] 40%|####      | 8.25M/20.5M [00:07<00:28, 443kB/s] 41%|####      | 8.38M/20.5M [00:07<00:26, 485kB/s] 42%|####1     | 8.50M/20.5M [00:08<00:24, 516kB/s] 42%|####2     | 8.62M/20.5M [00:08<00:20, 611kB/s] 43%|####2     | 8.75M/20.5M [00:08<00:22, 543kB/s] 43%|####3     | 8.88M/20.5M [00:08<00:19, 633kB/s] 45%|####4     | 9.12M/20.5M [00:08<00:14, 826kB/s] 46%|####5     | 9.38M/20.5M [00:08<00:10, 1.06MB/s] 47%|####7     | 9.62M/20.5M [00:09<00:08, 1.32MB/s] 48%|####8     | 9.88M/20.5M [00:09<00:07, 1.53MB/s] 50%|####9     | 10.1M/20.5M [00:09<00:06, 1.63MB/s] 51%|#####1    | 10.5M/20.5M [00:09<00:05, 1.94MB/s] 53%|#####2    | 10.8M/20.5M [00:09<00:04, 2.06MB/s] 54%|#####3    | 11.0M/20.5M [00:09<00:05, 1.93MB/s] 56%|#####5    | 11.4M/20.5M [00:09<00:04, 2.20MB/s] 57%|#####6    | 11.6M/20.5M [00:10<00:06, 1.47MB/s] 58%|#####8    | 11.9M/20.5M [00:10<00:06, 1.47MB/s] 59%|#####9    | 12.1M/20.5M [00:10<00:06, 1.39MB/s] 61%|######    | 12.4M/20.5M [00:10<00:06, 1.41MB/s] 62%|######1   | 12.6M/20.5M [00:10<00:05, 1.43MB/s] 63%|######2   | 12.9M/20.5M [00:11<00:05, 1.36MB/s] 64%|######4   | 13.1M/20.5M [00:11<00:07, 1.04MB/s] 65%|######4   | 13.2M/20.5M [00:11<00:08, 914kB/s]  65%|######5   | 13.4M/20.5M [00:12<00:08, 869kB/s] 66%|######6   | 13.5M/20.5M [00:12<00:09, 790kB/s] 67%|######6   | 13.6M/20.5M [00:13<00:20, 355kB/s] 68%|######7   | 13.9M/20.5M [00:13<00:12, 545kB/s] 68%|######8   | 14.0M/20.5M [00:13<00:11, 575kB/s] 69%|######9   | 14.1M/20.5M [00:13<00:10, 642kB/s] 70%|######9   | 14.2M/20.5M [00:13<00:10, 613kB/s] 70%|#######   | 14.4M/20.5M [00:14<00:10, 607kB/s] 71%|#######   | 14.5M/20.5M [00:14<00:09, 664kB/s] 72%|#######1  | 14.6M/20.5M [00:14<00:10, 590kB/s] 72%|#######2  | 14.8M/20.5M [00:14<00:11, 531kB/s] 73%|#######2  | 14.9M/20.5M [00:15<00:13, 446kB/s] 73%|#######3  | 15.0M/20.5M [00:15<00:11, 487kB/s] 74%|#######3  | 15.1M/20.5M [00:15<00:11, 496kB/s] 75%|#######4  | 15.2M/20.5M [00:16<00:13, 397kB/s] 75%|#######5  | 15.4M/20.5M [00:16<00:15, 348kB/s] 76%|#######5  | 15.5M/20.5M [00:17<00:15, 341kB/s] 76%|#######6  | 15.6M/20.5M [00:17<00:15, 336kB/s] 77%|#######7  | 15.8M/20.5M [00:17<00:14, 347kB/s] 78%|#######7  | 15.9M/20.5M [00:18<00:13, 344kB/s] 78%|#######8  | 16.0M/20.5M [00:18<00:13, 338kB/s] 79%|#######8  | 16.1M/20.5M [00:19<00:13, 348kB/s] 79%|#######9  | 16.2M/20.5M [00:19<00:12, 355kB/s] 80%|########  | 16.4M/20.5M [00:19<00:12, 339kB/s] 81%|########  | 16.5M/20.5M [00:20<00:13, 309kB/s] 81%|########1 | 16.6M/20.5M [00:20<00:13, 294kB/s] 82%|########1 | 16.8M/20.5M [00:21<00:15, 254kB/s] 83%|########2 | 16.9M/20.5M [00:22<00:16, 226kB/s] 83%|########3 | 17.0M/20.5M [00:22<00:16, 222kB/s] 84%|########3 | 17.1M/20.5M [00:23<00:18, 194kB/s] 84%|########4 | 17.2M/20.5M [00:24<00:15, 216kB/s] 85%|########4 | 17.4M/20.5M [00:24<00:14, 224kB/s] 86%|########5 | 17.5M/20.5M [00:25<00:14, 207kB/s] 86%|########6 | 17.6M/20.5M [00:25<00:12, 228kB/s] 87%|########6 | 17.8M/20.5M [00:26<00:11, 255kB/s] 87%|########7 | 17.9M/20.5M [00:26<00:09, 281kB/s] 88%|########8 | 18.0M/20.5M [00:26<00:08, 307kB/s] 89%|########8 | 18.1M/20.5M [00:27<00:07, 335kB/s] 89%|########9 | 18.2M/20.5M [00:27<00:06, 377kB/s] 90%|########9 | 18.4M/20.5M [00:27<00:05, 417kB/s] 90%|######### | 18.5M/20.5M [00:27<00:04, 458kB/s] 91%|#########1| 18.6M/20.5M [00:28<00:03, 499kB/s] 92%|#########1| 18.8M/20.5M [00:28<00:03, 545kB/s] 92%|#########2| 18.9M/20.5M [00:28<00:02, 608kB/s] 93%|#########2| 19.0M/20.5M [00:28<00:02, 574kB/s] 94%|#########3| 19.1M/20.5M [00:29<00:02, 498kB/s] 94%|#########4| 19.2M/20.5M [00:29<00:02, 535kB/s] 95%|#########4| 19.4M/20.5M [00:29<00:01, 595kB/s] 95%|#########5| 19.5M/20.5M [00:29<00:01, 669kB/s] 96%|#########5| 19.6M/20.5M [00:29<00:01, 642kB/s] 97%|#########6| 19.8M/20.5M [00:30<00:01, 648kB/s] 97%|#########7| 19.9M/20.5M [00:30<00:00, 688kB/s] 98%|#########7| 20.0M/20.5M [00:30<00:00, 726kB/s] 98%|#########8| 20.1M/20.5M [00:30<00:00, 751kB/s] 99%|#########9| 20.2M/20.5M [00:30<00:00, 788kB/s]100%|#########9| 20.4M/20.5M [00:30<00:00, 681kB/s]100%|##########| 20.5M/20.5M [00:30<00:00, 692kB/s]
+17:39:18 [ft 21/40] efficientnet_b0 standard s0 f0: best_ep=5 val_bacc=0.676 epochs_run=13 (184s)  ETA 43 min
+17:41:30 [ft 22/40] efficientnet_b0 standard s0 f1: best_ep=11 val_bacc=0.681 epochs_run=19 (132s)  ETA 41 min
+17:42:56 [ft 23/40] efficientnet_b0 standard s0 f2: best_ep=6 val_bacc=0.643 epochs_run=14 (86s)  ETA 38 min
+17:44:43 [ft 24/40] efficientnet_b0 standard s0 f3: best_ep=5 val_bacc=0.695 epochs_run=13 (107s)  ETA 35 min
+17:46:36 [ft 25/40] efficientnet_b0 standard s0 f4: best_ep=8 val_bacc=0.620 epochs_run=16 (113s)  ETA 33 min
+17:48:04 [ft 26/40] efficientnet_b0 standard s1 f0: best_ep=3 val_bacc=0.680 epochs_run=11 (89s)  ETA 30 min
+17:50:21 [ft 27/40] efficientnet_b0 standard s1 f1: best_ep=12 val_bacc=0.660 epochs_run=20 (137s)  ETA 28 min
+17:53:05 [ft 28/40] efficientnet_b0 standard s1 f2: best_ep=16 val_bacc=0.604 epochs_run=24 (165s)  ETA 26 min
+17:55:03 [ft 29/40] efficientnet_b0 standard s1 f3: best_ep=11 val_bacc=0.678 epochs_run=19 (118s)  ETA 24 min
+17:56:10 [ft 30/40] efficientnet_b0 standard s1 f4: best_ep=3 val_bacc=0.612 epochs_run=11 (67s)  ETA 21 min
+17:57:27 [ft 31/40] efficientnet_b0 compaware s0 f0: best_ep=5 val_bacc=0.688 epochs_run=13 (77s)  ETA 19 min
+17:59:01 [ft 32/40] efficientnet_b0 compaware s0 f1: best_ep=8 val_bacc=0.633 epochs_run=16 (94s)  ETA 17 min
+18:00:43 [ft 33/40] efficientnet_b0 compaware s0 f2: best_ep=9 val_bacc=0.596 epochs_run=17 (102s)  ETA 15 min
+18:02:16 [ft 34/40] efficientnet_b0 compaware s0 f3: best_ep=8 val_bacc=0.669 epochs_run=16 (93s)  ETA 12 min
+18:03:40 [ft 35/40] efficientnet_b0 compaware s0 f4: best_ep=5 val_bacc=0.603 epochs_run=13 (84s)  ETA 10 min
+18:06:38 [ft 36/40] efficientnet_b0 compaware s1 f0: best_ep=14 val_bacc=0.670 epochs_run=22 (179s)  ETA 8 min
+18:08:40 [ft 37/40] efficientnet_b0 compaware s1 f1: best_ep=12 val_bacc=0.657 epochs_run=20 (122s)  ETA 6 min
+18:09:51 [ft 38/40] efficientnet_b0 compaware s1 f2: best_ep=3 val_bacc=0.580 epochs_run=11 (71s)  ETA 4 min
+18:11:15 [ft 39/40] efficientnet_b0 compaware s1 f3: best_ep=6 val_bacc=0.678 epochs_run=14 (85s)  ETA 2 min
+18:12:26 [ft 40/40] efficientnet_b0 compaware s1 f4: best_ep=4 val_bacc=0.608 epochs_run=12 (70s)  ETA 0 min
+18:12:26 [ft] ALL DONE
+18:12:26 [run_all] stage frozen start
+C:\Users\adisi\Desktop\Research Paper Work\papers\Client Papers\paper-06-skin-photo-compression\code\frozen.py:72: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  x = torch.from_numpy(np.ascontiguousarray(arr[i:i + bs])).to(DEV).permute(0, 3, 1, 2).float().div_(255)
+18:12:34 [feat] dinov2_vits14 clean: (2298, 384) in 3s
+18:12:38 [feat] dinov2_vits14 q95: (2298, 384) in 4s
+18:12:42 [feat] dinov2_vits14 q90: (2298, 384) in 4s
+18:12:46 [feat] dinov2_vits14 q80: (2298, 384) in 4s
+18:12:50 [feat] dinov2_vits14 q70: (2298, 384) in 4s
+18:12:54 [feat] dinov2_vits14 q60: (2298, 384) in 4s
+18:12:59 [feat] dinov2_vits14 q50: (2298, 384) in 4s
+18:13:03 [feat] dinov2_vits14 q40: (2298, 384) in 4s
+18:13:06 [feat] dinov2_vits14 q30: (2298, 384) in 4s
+18:13:10 [feat] dinov2_vits14 q20: (2298, 384) in 4s
+18:13:14 [feat] dinov2_vits14 q10: (2298, 384) in 4s
+18:13:18 [feat] dinov2_vits14 app_1600_q80: (2298, 384) in 4s
+18:13:21 [feat] dinov2_vits14 app_1600_q70: (2298, 384) in 4s
+18:13:25 [feat] dinov2_vits14 app_1280_q60: (2298, 384) in 4s
+18:13:29 [feat] dinov2_vits14 app_960_q50: (2298, 384) in 4s
+18:13:33 [feat] dinov2_vits14 resend_1280_q60_x3: (2298, 384) in 4s
+18:13:37 [feat] dinov2_vits14 resend_1280_q60_x5: (2298, 384) in 4s
+18:13:43 [feat] dinov2_vits14 aug0: (2298, 384) in 6s
+18:13:49 [feat] dinov2_vits14 aug1: (2298, 384) in 6s
+18:13:55 [feat] dinov2_vits14 aug2: (2298, 384) in 6s
+18:14:00 [feat] dinov2_vits14 aug3: (2298, 384) in 5s
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+18:14:42 [feat] clip_vitb16 clean: (2298, 512) in 7s
+18:14:49 [feat] clip_vitb16 q95: (2298, 512) in 7s
+18:14:56 [feat] clip_vitb16 q90: (2298, 512) in 7s
+18:15:03 [feat] clip_vitb16 q80: (2298, 512) in 7s
+18:15:10 [feat] clip_vitb16 q70: (2298, 512) in 7s
+18:15:18 [feat] clip_vitb16 q60: (2298, 512) in 7s
+18:15:25 [feat] clip_vitb16 q50: (2298, 512) in 7s
+18:15:33 [feat] clip_vitb16 q40: (2298, 512) in 7s
+18:15:40 [feat] clip_vitb16 q30: (2298, 512) in 7s
+18:15:47 [feat] clip_vitb16 q20: (2298, 512) in 7s
+18:15:55 [feat] clip_vitb16 q10: (2298, 512) in 7s
+18:16:02 [feat] clip_vitb16 app_1600_q80: (2298, 512) in 7s
+18:16:09 [feat] clip_vitb16 app_1600_q70: (2298, 512) in 7s
+18:16:17 [feat] clip_vitb16 app_1280_q60: (2298, 512) in 7s
+18:16:24 [feat] clip_vitb16 app_960_q50: (2298, 512) in 7s
+18:16:32 [feat] clip_vitb16 resend_1280_q60_x3: (2298, 512) in 7s
+18:16:39 [feat] clip_vitb16 resend_1280_q60_x5: (2298, 512) in 7s
+18:16:49 [feat] clip_vitb16 aug0: (2298, 512) in 10s
+18:16:58 [feat] clip_vitb16 aug1: (2298, 512) in 9s
+18:17:08 [feat] clip_vitb16 aug2: (2298, 512) in 10s
+18:17:17 [feat] clip_vitb16 aug3: (2298, 512) in 9s
+18:17:18 [fz] dinov2_vits14 standard s0 f0: C=0.01 val_bacc=0.595
+18:17:20 [fz] dinov2_vits14 standard s0 f1: C=0.1 val_bacc=0.546
+18:17:21 [fz] dinov2_vits14 standard s0 f2: C=0.1 val_bacc=0.598
+18:17:22 [fz] dinov2_vits14 standard s0 f3: C=0.01 val_bacc=0.679
+18:17:23 [fz] dinov2_vits14 standard s0 f4: C=0.01 val_bacc=0.523
+18:17:24 [fz] dinov2_vits14 standard s1 f0: C=0.01 val_bacc=0.595
+18:17:26 [fz] dinov2_vits14 standard s1 f1: C=0.1 val_bacc=0.546
+18:17:27 [fz] dinov2_vits14 standard s1 f2: C=0.1 val_bacc=0.598
+18:17:28 [fz] dinov2_vits14 standard s1 f3: C=0.01 val_bacc=0.679
+18:17:29 [fz] dinov2_vits14 standard s1 f4: C=0.01 val_bacc=0.523
+18:17:33 [fz] dinov2_vits14 compaware s0 f0: C=10.0 val_bacc=0.540
+18:17:37 [fz] dinov2_vits14 compaware s0 f1: C=1.0 val_bacc=0.532
+18:17:42 [fz] dinov2_vits14 compaware s0 f2: C=0.01 val_bacc=0.583
+18:17:46 [fz] dinov2_vits14 compaware s0 f3: C=0.01 val_bacc=0.650
+18:17:50 [fz] dinov2_vits14 compaware s0 f4: C=0.01 val_bacc=0.511
+18:17:54 [fz] dinov2_vits14 compaware s1 f0: C=10.0 val_bacc=0.540
+18:17:58 [fz] dinov2_vits14 compaware s1 f1: C=1.0 val_bacc=0.532
+18:18:02 [fz] dinov2_vits14 compaware s1 f2: C=0.01 val_bacc=0.583
+18:18:07 [fz] dinov2_vits14 compaware s1 f3: C=0.01 val_bacc=0.650
+18:18:11 [fz] dinov2_vits14 compaware s1 f4: C=0.01 val_bacc=0.511
+18:18:12 [fz] clip_vitb16 standard s0 f0: C=0.01 val_bacc=0.694
+18:18:13 [fz] clip_vitb16 standard s0 f1: C=10.0 val_bacc=0.591
+18:18:15 [fz] clip_vitb16 standard s0 f2: C=0.01 val_bacc=0.649
+18:18:16 [fz] clip_vitb16 standard s0 f3: C=0.01 val_bacc=0.663
+18:18:17 [fz] clip_vitb16 standard s0 f4: C=0.01 val_bacc=0.566
+18:18:19 [fz] clip_vitb16 standard s1 f0: C=0.01 val_bacc=0.694
+18:18:20 [fz] clip_vitb16 standard s1 f1: C=10.0 val_bacc=0.591
+18:18:21 [fz] clip_vitb16 standard s1 f2: C=0.01 val_bacc=0.649
+18:18:23 [fz] clip_vitb16 standard s1 f3: C=0.01 val_bacc=0.663
+18:18:24 [fz] clip_vitb16 standard s1 f4: C=0.01 val_bacc=0.566
+18:18:29 [fz] clip_vitb16 compaware s0 f0: C=0.1 val_bacc=0.641
+18:18:34 [fz] clip_vitb16 compaware s0 f1: C=0.01 val_bacc=0.659
+18:18:40 [fz] clip_vitb16 compaware s0 f2: C=0.01 val_bacc=0.628
+18:18:45 [fz] clip_vitb16 compaware s0 f3: C=0.01 val_bacc=0.633
+18:18:51 [fz] clip_vitb16 compaware s0 f4: C=0.01 val_bacc=0.557
+18:18:56 [fz] clip_vitb16 compaware s1 f0: C=0.1 val_bacc=0.641
+18:19:01 [fz] clip_vitb16 compaware s1 f1: C=0.01 val_bacc=0.659
+18:19:07 [fz] clip_vitb16 compaware s1 f2: C=0.01 val_bacc=0.628
+18:19:12 [fz] clip_vitb16 compaware s1 f3: C=0.01 val_bacc=0.633
+18:19:18 [fz] clip_vitb16 compaware s1 f4: C=0.01 val_bacc=0.557
+18:19:18 [fz] ALL DONE
+18:19:18 [run_all] stage analyze start

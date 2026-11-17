@@ -1,0 +1,24 @@
+[precompute] 100/2298  6s elapsed  ETA 143s
+[precompute] 200/2298  15s elapsed  ETA 162s
+[precompute] 300/2298  23s elapsed  ETA 156s
+[precompute] 400/2298  34s elapsed  ETA 163s
+[precompute] 500/2298  40s elapsed  ETA 144s
+[precompute] 600/2298  46s elapsed  ETA 130s
+[precompute] 700/2298  55s elapsed  ETA 126s
+[precompute] 800/2298  62s elapsed  ETA 115s
+[precompute] 900/2298  70s elapsed  ETA 109s
+[precompute] 1000/2298  78s elapsed  ETA 101s
+[precompute] 1100/2298  86s elapsed  ETA 94s
+[precompute] 1200/2298  93s elapsed  ETA 85s
+[precompute] 1300/2298  100s elapsed  ETA 77s
+[precompute] 1400/2298  108s elapsed  ETA 69s
+[precompute] 1500/2298  116s elapsed  ETA 61s
+[precompute] 1600/2298  126s elapsed  ETA 55s
+[precompute] 1700/2298  134s elapsed  ETA 47s
+[precompute] 1800/2298  145s elapsed  ETA 40s
+[precompute] 1900/2298  153s elapsed  ETA 32s
+[precompute] 2000/2298  166s elapsed  ETA 25s
+[precompute] 2100/2298  177s elapsed  ETA 17s
+[precompute] 2200/2298  185s elapsed  ETA 8s
+[precompute] 2298/2298  192s elapsed  ETA 0s
+[precompute] done in 204s

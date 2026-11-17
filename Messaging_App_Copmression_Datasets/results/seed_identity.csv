@@ -1,0 +1,9 @@
+model,regime,max_abs_prob_diff
+clip_vitb16,compaware,0
+clip_vitb16,standard,0
+dinov2_vits14,compaware,0
+dinov2_vits14,standard,0
+efficientnet_b0,compaware,0.9046
+efficientnet_b0,standard,0.989091
+resnet50,compaware,0.981535
+resnet50,standard,0.984354

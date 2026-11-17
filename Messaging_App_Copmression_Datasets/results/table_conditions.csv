@@ -1,0 +1,18 @@
+Condition,Longest side cap (px),JPEG quality,Passes,Median size (% of PNG),Photographs downscaled (%)
+Original PNG,none,–,0,100.0,0.0
+JPEG q95,none,95,1,16.8,0.0
+JPEG q90,none,90,1,11.1,0.0
+JPEG q80,none,80,1,7.2,0.0
+JPEG q70,none,70,1,5.6,0.0
+JPEG q60,none,60,1,4.6,0.0
+JPEG q50,none,50,1,4.0,0.0
+JPEG q40,none,40,1,3.4,0.0
+JPEG q30,none,30,1,2.8,0.0
+JPEG q20,none,20,1,2.2,0.0
+JPEG q10,none,10,1,1.6,0.0
+App 1600 px / q80,1600,80,1,7.0,12.1
+App 1600 px / q70,1600,70,1,5.4,12.1
+App 1280 px / q60,1280,60,1,4.4,21.8
+App 960 px / q50,960,50,1,3.5,39.7
+Re-sent x3 (1280 px / q60),1280,60,3,4.3,21.8
+Re-sent x5 (1280 px / q60),1280,60,5,4.3,21.8

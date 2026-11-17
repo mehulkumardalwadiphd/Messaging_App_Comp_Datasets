@@ -1,0 +1,23 @@
+{
+  "epochs": 30,
+  "patience": 7,
+  "batch": 32,
+  "lr": 0.0001,
+  "wd": 0.0001,
+  "aug_prob": 0.5,
+  "label_smoothing": 0.0,
+  "models": [
+    "resnet50",
+    "efficientnet_b0"
+  ],
+  "regimes": [
+    "standard",
+    "compaware"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "folds": 5,
+  "code_hash": "ef66483d32"
+}
